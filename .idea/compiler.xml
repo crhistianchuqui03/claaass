@@ -7,9 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ms-config-server" />
+        <module name="ms-auth" />
+        <module name="ms-client" />
         <module name="ms-pedido-service" />
         <module name="ms-registry-server" />
-        <module name="ms-client" />
         <module name="ms-catalogo" />
         <module name="ms-gateway-service" />
       </profile>
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-auth" options="-parameters" />
       <module name="ms-catalogo" options="-parameters" />
       <module name="ms-client" options="-parameters" />
       <module name="ms-config-server" options="-parameters" />
