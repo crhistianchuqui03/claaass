@@ -13,6 +13,8 @@ spring:
     username: root
     password:
 
+
+
 eureka:
   client:
     serviceUrl:
@@ -21,5 +23,6 @@ eureka:
   instance:
     #hostname: localhost
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
 jwt:
   secret: secret

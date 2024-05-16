@@ -1,4 +1,4 @@
-package com.example.msauth.controler;
+package com.example.msauth.controller;
 
 import com.example.msauth.dto.AuthUserDto;
 import com.example.msauth.entity.AuthUser;
